@@ -1,0 +1,90 @@
+body {
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#container {
+    display: flex;
+    background-color: #ffffff;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    max-width: 90%;
+    min-width: 300px;
+    max-height: 90vh;
+    overflow: auto;
+}
+.container {
+    text-align: center;
+    border: 4px solid #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    min-width: 300px;
+    max-height: 90vh;
+    overflow: auto;
+}
+.container h1 {
+    margin-bottom: 20px;
+}
+.container form div {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.container form label {
+    font-weight: bold;
+}
+.container form input {
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+}
+.container form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #21e007;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+.container form button:hover {
+    background-color: #292022;
+}
+.container .result {
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.container .inputted_prelim_grade {
+    margin-top: 20px;
+    font-weight: bold;
+}
+.container .prelim_result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+.container .midterm_final_result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+.container .dean_result {
+    margin-top: 20px;
+    font-weight: bold;
+}
